@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Paper Rock Scrissors Game!</title>
+</head>
+<body>
+    <header>
+        <h1>PAPER ROCK SCISSORS GAME</h1>
+    </header>
+    <div class="score-board">
+        <div class="box-score-board">
+            <h2>PLAYER</h2>
+            <span id="user-score">0</span>
+        </div>
+        <div class="box-score-board">
+            <h2>COMPUTER</h2>
+            <span id="ai-score">0</span>
+        </div>
+    </div>
+    <div class="result-game-text">
+        <span id="result"></span>
+    </div>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="/icons/r.png" alt="rock">
+        </div>
+        <div class="choice" id="paper">
+            <img src="/icons/p.png" alt="paper">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="/icons/s.png" alt="scissors">
+        </div>
+    </div>
+
+    <div class="reset-game">
+        <button class="reset-game-btn" id="reset-score-btn">RESET GAME</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

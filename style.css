@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    background-color:#f1e8e6;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color:#361d32;
+    font-size: 50px;
+}
+
+.score-board {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.box-score-board {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-score-board h2 {
+    font-size: 40px;
+}
+.box-score-board span {
+    font-size: 40px;
+}
+.result-game-text {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    align-self: center;
+}
+
+.result-game-text span {
+    color:#361d32;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.choices {
+    height: 55vh;
+    width: 100%;
+    background-color: #543c52;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.choice img {
+    width: 200px;
+    height: 200px;
+}
+
+.reset-game {
+    height: 10vh;
+    width: 100%;
+    bottom: 0;
+}
+
+.reset-game-btn {
+    width: 100%;
+    height: 100%;
+    background-color: #f55951;
+    color: #f1e8e6;
+    font-size: 20px;
+    border: none;
+}
+*:focus {
+    outline: 0 !important;
+}
+
+@media only screen and (max-width: 1366px) {
+    .choice img {
+    width: 220px;
+    height: 220px;
+}
+   .result-game-text span {
+    color:#361d32;
+    font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    header h1{
+        font-size: 20px;
+    }
+    .box-score-board h2 {
+        font-size: 15px;
+    }
+    .box-score-board span {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    .result-game-text span {
+    color:#361d32;
+    font-size: 12px;
+    }
+    .choice img {
+    width: 100px;
+    height: 100px;
+}
+    .reset-game-btn {
+        font-size: 10px;
+    }
+}
+
