@@ -19,4 +19,4 @@
 * Simple AI 
 
 ## Status
-* Project is: complete
+* Project is: completed
